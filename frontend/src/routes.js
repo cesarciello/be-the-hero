@@ -4,7 +4,7 @@ import Profile from "./pages/Profile";
 import Register from "./pages/Register";
 import NewIncident from "./pages/NewIncident";
 import { BrowserRouter, Route } from "react-router-dom";
-import { AnimatedSwitch, spring, AnimatedRoute } from "react-router-transition";
+import { AnimatedSwitch, spring } from "react-router-transition";
 
 function mapStyles(styles) {
   return {

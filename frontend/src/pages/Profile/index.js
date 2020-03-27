@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./styles.scss";
 import api from "../../services/api";
 import { Link, useHistory } from "react-router-dom";
 import logoImg from "../../assets/logo.svg";

@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./styles.scss";
 import api from '../../services/api';
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
@@ -18,7 +18,7 @@ export default function Logon() {
       localStorage.setItem('ongName', response.data.name)
       history.push('/profile');
     } catch (err) {
-      alert('Falha no login, Tente Novamnete');
+      alert('Falha no login, Tente Novamente!');
     }
   }
 

@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./styles.scss";
 import api from '../../services/api';
 import React, { useState } from "react";
 import logoImg from "../../assets/logo.svg";

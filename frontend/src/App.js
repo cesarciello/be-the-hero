@@ -1,4 +1,4 @@
-import './global.css';
+import './global.scss';
 import React from "react";
 import Routes from "./routes";
 
